@@ -1,0 +1,180 @@
+
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Shrikhand', cursive;
+	scroll-behavior: smooth;
+
+
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+    background-color: black;
+	position: fixed;
+	top: 0;
+   
+}
+
+#icono{
+	position: relative;
+	width: 8%;
+	height: 60px;
+	top: 10px;
+	left: 1%;
+	float: left;
+}
+
+.header ul{
+	position: relative;
+	width: 60%;
+	left: 8%;
+	height: 100%;
+	float: left;
+
+}
+
+.header ul li {
+
+	position: relative;
+	list-style-type: none;
+	display: inline;
+	top:50%;
+	left: 0;
+	margin-left: 0px;
+
+}
+.header  li a{
+	text-decoration: none;
+	color: blue;
+
+	
+}
+.header ul li a{
+	padding: 10px;
+
+}
+
+.buscador{
+	position: relative;
+	top: 50%;
+	left: 13%;
+	float: left;
+	
+}
+
+.buscador input{
+	position: relative;
+	left:0px;
+	top:35px;
+	height: 30px;
+	width: 200px;
+    border:1px solid #660033;
+    float: left;
+    padding-left: 10px;
+    outline: none;
+    
+
+}
+
+
+.buscador button img {
+	border-radius: 2px;
+	width: 100%;
+    height: 100%;
+    position: relative;
+
+   
+
+
+}
+
+.buscador button{
+position: relative;
+width: 40px;
+height: 30px;
+border:1px solid #660033;
+border-left: none;
+outline: none;
+top:35px;
+background-color: #0099ff;
+
+}
+
+.buscador button img:hover {
+	opacity: .6;
+	cursor: pointer;
+}
+.subcate{
+  display: none;
+  position: absolute;
+  width: 180%;
+  left: -40px;
+  top: 105%;
+  font-family: arial;
+  padding-left: 22px;
+  padding-top: 22px;
+ 
+ 
+}
+
+.subcate ul {
+	background-color: black;
+	padding:0;
+	text-align: center;
+   
+}
+
+.header ul li:hover > .subcate{
+  display: block;
+ }
+
+.header ul li a:hover {
+ color: #ffcc00;
+ 
+}
+.subcate ul li a:hover{
+background-color: #990033;
+}
+
+.subcate li a{
+ display:block;
+
+}
+ .contenedor-principal{
+ 	position: relative;
+ 	width: 100%;
+ 	height: 605px;
+ 	top: 80px;
+ 	background-color: #660033;
+ 	z-index: -1;
+
+
+ }
+
+.imagen-principal img{
+	width: 100%;
+	height: 580px;
+	position: relative;
+	top:-80px;
+    opacity: .6;
+
+}
+.imagen-principal h1 {
+
+position: absolute;
+top: 150px;
+left: 37%;
+color:white;
+
+}
+
+.imagen-principal p{
+	position: absolute;
+	top: 200px;
+	color: white;
+	left: 30%;
+
+}
